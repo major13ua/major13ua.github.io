@@ -1,8 +1,5 @@
-
-@import "bourbon/bourbon";
-
-@import "variables";
-@import "base/base";
-
+@import "normalize";
 @import "layout";
+@import "responsive";
+@import "print";
 @import "syntax-highlighting";

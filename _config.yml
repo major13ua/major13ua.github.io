@@ -1,59 +1,63 @@
-
 # SEO settings
-title: "major13ua"
-title2: "space" # default: ""
-description: "Just another minimalist Jekyll theme that focuses on technical writing."
-keywords: "java, js, camel, angular, git"
-url: https://major13ua.github.io # site url
-baseurl: null # apply repo name if use it under gh-pages branch "/thinkspace"
-# baseurl: null # apply null if repo name is something like username.github.io
+title: "blog(major13ua);"
+description: "R&D Software Engeneer and Delivery Manager"
+keywords: "java"
+url: "https://major13ua.github.io" # Site url (default: "")
+#baseurl: "" # Apply repo name if use it under gh-pages branch
+baseurl: null # Apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
-repo: https://github.com/major13ua/
-disqus_shortname: ""
-twitter_username: ""
-comments: false
+# Site analytics
+google_analytics:
+
+# Disqus
+disqus_shortname:
+
+# Site author info
+author:
+  name: "Ievgen Chupryna"
+  email: ichupryna(at)gmail.com
+  nickname: "major13ua"
+  display_bio: true # Edit file in /_includes/bio.html
+  website: https://major13ua.github.io
+
+# Social settings
+og_locale: "en_US"
+display_social_icons: true # Edit file in /_includes/social_links.html
+github:
+  username: major13ua
+facebook:
+  profile_url: https://www.facebook.com/ievgen.major
+twitter:
+  username: 
 
 # Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
-
+#source: ./
+#destination: ../heiswayi.github.io/
 source: ./
 destination: ./_site
 
-# Sass configuration
+permalink: /:year/:title
+markdown: kramdown
+highlighter: rouge
+
+timezone: Asia/Kuala_Lumpur
+
+exclude: ["README.md", "LICENSE.md", "CHANGELOG.md"]
+
+# Site configurations
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
 sass:
   sass_dir: assets/scss
   style: compressed # expanded
 
-# Author settings
-author:
-  name     : "Chupryna Ievgen"
-  job      : "R&D Software Engineer and Delivery Manager"
-  bio      : "bio TODO"
-  thumb    : /images/author.jpg
-  email    : ichupryna@gmail.com
-  url      : https://major13ua.github.io
-  github   : https://major13ua.github.io
-  twitter  :
-  facebook :
-  linkedin :
-
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@HeiswayiNrird"
-
 gems:
-  - bourbon
-  - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+  - jekyll-sitemap

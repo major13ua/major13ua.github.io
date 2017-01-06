@@ -2,11 +2,12 @@
 layout: default
 ---
 
-<article class="page container">
-  <header class="page-header">
+<div class="page">
+  <div class="page-top-meta">
     <h1 class="page-title">{{ page.title }}</h1>
-  </header>
-  <div class="page-content">
-    {{ content }}
   </div>
-</article>
+
+  {{ content }}
+
+</div>
+<div class="back"><a href="/"><i class="fa fa-chevron-left"></i> Back to Homepage</a></div>
