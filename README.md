@@ -10,7 +10,7 @@ This repo contains the source code of my site (referred to SITE_URL), which is b
 
 ## License
 
-Unless otherwise stated, all original code presented on this site is licensed under the [MIT](LICENSE.md) license. All original photographs and text on this website ([major13ua.github.io](http://major13ua.github.io)) are licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. If you have any questions about using any of this material for commercial purposes, please write me an email at hnrird(at)gmail.com.
+Unless otherwise stated, all original code presented on this site is licensed under the [MIT](LICENSE.md) license. All original photographs and text on this website ([major13ua.github.io](http://major13ua.github.io)) are licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. If you have any questions about using any of this material for commercial purposes, please write me an email at ichupryna(at)gmail.com.
 
 ## Changelogs
 
