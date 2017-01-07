@@ -28,7 +28,7 @@ github:
 facebook:
   profile_url: https://www.facebook.com/ievgen.major
 twitter:
-  username: 
+  username:
 
 # Build settings
 #source: ./
@@ -40,7 +40,7 @@ permalink: /:year/:title
 markdown: kramdown
 highlighter: rouge
 
-timezone: Asia/Kuala_Lumpur
+timezone: Europe/Kyiv
 
 exclude: ["README.md", "LICENSE.md", "CHANGELOG.md"]
 

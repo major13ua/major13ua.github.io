@@ -1,4 +1,4 @@
-# Version 3.1
+# Version 1.1
 
 ## About this Jekyll theme
 
@@ -6,27 +6,20 @@ This repo contains the source code of my site (referred to SITE_URL), which is b
 
 ## Live
 
-**SITE_URL:** [http://heiswayi.github.io](http://heiswayi.github.io)
+**SITE_URL:** [http://major13ua.github.io](http://major13ua.github.io)
 
 ## License
 
-Unless otherwise stated, all original code presented on this site is licensed under the [MIT](LICENSE.md) license. All original photographs and text on this website ([heiswayi.github.io](http://heiswayi.github.io)) are licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. If you have any questions about using any of this material for commercial purposes, please write me an email at hnrird(at)gmail.com.
+Unless otherwise stated, all original code presented on this site is licensed under the [MIT](LICENSE.md) license. All original photographs and text on this website ([major13ua.github.io](http://major13ua.github.io)) are licensed under a [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. If you have any questions about using any of this material for commercial purposes, please write me an email at hnrird(at)gmail.com.
 
 ## Changelogs
 
 ```
-Version 3.2
+Version 1.1
 ===========
-- Add Disqus comment feature.
+- Content setup
 
-Version 3.1
+Version 1.0
 ===========
-- Added post tags at the bottom of post layout and tag collection page (tagged.html).
-
-Version 3.0
-===========
-- Updated to new layout design, focused more on article listing.
-- Removed masonry-style project list from the homepage.
+- The beginning
 ```
-
-Handcrafted by [Heiswayi Nrird](http://heiswayi.github.io) with love.
