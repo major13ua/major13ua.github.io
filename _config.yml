@@ -14,8 +14,8 @@ disqus_shortname:
 
 # Site author info
 author:
-  name: "Ievgen Chupryna"
-  email: ichupryna(at)gmail.com
+  name: "Ievgen"
+  email: major13help(at)gmail.com
   nickname: "major13ua"
   display_bio: true # Edit file in /_includes/bio.html
   website: https://major13ua.github.io
@@ -25,8 +25,6 @@ og_locale: "en_US"
 display_social_icons: true # Edit file in /_includes/social_links.html
 github:
   username: major13ua
-facebook:
-  profile_url: https://www.facebook.com/ievgen.major
 twitter:
   username:
 
